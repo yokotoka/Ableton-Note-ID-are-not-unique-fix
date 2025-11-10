@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fix corrupted Ableton Live project files with non-unique Note IDs error. Free online tool to repair .als files affected by duplicate MIDI note IDs.">
+    <meta name="keywords" content="ableton, note id not unique, corrupted als file, ableton fix, non-unique note ids, corrupt-ableton-fix, ableton repair">
+    <title>Ableton Non-Unique Note IDs Fix - Repair Corrupted .als Files</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/pako@2.1.0/dist/pako.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ableton Note ID Fix</h1>
+            <p class="subtitle">Fix corrupted Ableton Live project files with non-unique Note IDs</p>
+        </header>
+
+        <section class="problem-description">
+            <h2>What problem does this solve?</h2>
+            <p>
+                If you've encountered the error <strong>"Non-unique Note IDs"</strong> when trying to open your Ableton Live project (.als file),
+                this tool will fix it automatically. This corruption occurs when multiple MIDI notes in your project share the same ID,
+                preventing Ableton from loading the file.
+            </p>
+            <p>
+                This is a common issue discussed in <a href="https://www.reddit.com/r/ableton/comments/eeiyn5/how_to_fix_a_corrupted_ableton_als_file_nonunique/" target="_blank">this Reddit thread</a>
+                and affects many producers who have lost hours of work. Unlike manual XML editing, this tool automates the entire repair process.
+            </p>
+            <div class="features">
+                <h3>Features:</h3>
+                <ul>
+                    <li>✓ 100% client-side processing - your file never leaves your browser</li>
+                    <li>✓ Automatic detection and repair of duplicate Note IDs</li>
+                    <li>✓ Detailed statistics report</li>
+                    <li>✓ Instant download of fixed file</li>
+                    <li>✓ Works with all Ableton Live versions</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="upload-section">
+            <div class="upload-area" id="uploadArea">
+                <div class="upload-content">
+                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="17 8 12 3 7 8"></polyline>
+                        <line x1="12" y1="3" x2="12" y2="15"></line>
+                    </svg>
+                    <h3>Drop your corrupted .als file here</h3>
+                    <p>or click to browse</p>
+                    <input type="file" id="fileInput" accept=".als" hidden>
+                </div>
+            </div>
+        </section>
+
+        <section class="processing" id="processingSection" style="display: none;">
+            <div class="spinner"></div>
+            <p>Processing your file...</p>
+        </section>
+
+        <section class="results" id="resultsSection" style="display: none;">
+            <h2>Results</h2>
+            <div class="stats-grid" id="statsGrid"></div>
+            <button id="downloadBtn" class="download-button">Download Fixed File</button>
+        </section>
+
+        <footer>
+            <p>
+                Based on <a href="https://github.com/rjomulus/Ableton_Live_Unique_Note_IDs_fix" target="_blank">rjomulus's Python script</a>
+                and the community solution from <a href="https://www.reddit.com/r/ableton/comments/eeiyn5/" target="_blank">Reddit</a>
+            </p>
+            <p>
+                <a href="https://github.com/yokotoka/Ableton-Note-ID-are-not-unique-fix" target="_blank">View source on GitHub</a>
+            </p>
+        </footer>
+    </div>
+
+    <script src="fix.js"></script>
+</body>
+</html>

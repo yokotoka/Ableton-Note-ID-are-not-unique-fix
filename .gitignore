@@ -1,0 +1,8 @@
+node_modules/
+*.als
+test_fix.js
+package.json
+package-lock.json
+.mcp.json
+.claude/
+.playwright-mcp/
