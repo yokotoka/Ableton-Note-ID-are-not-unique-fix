@@ -70,6 +70,18 @@ h3 {
     border-left: 4px solid var(--primary);
 }
 
+.error-screenshot {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.error-screenshot img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px var(--shadow);
+}
+
 .problem-description p {
     margin-bottom: 15px;
     color: var(--text);

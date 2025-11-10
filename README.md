@@ -4,7 +4,9 @@
 
 🔗 **Live Demo**: https://yokotoka.github.io/Ableton-Note-ID-are-not-unique-fix/
 
-## What Problem Does This Solve?
+## The Problem
+
+![Ableton Error Screenshot](images/ableton-error.png)
 
 If you've encountered this error when opening your Ableton Live project:
 
@@ -16,11 +18,11 @@ Your project file is corrupted due to duplicate MIDI note IDs in the XML structu
 
 ## Features
 
-- ✓ **100% Client-Side** - Your file never leaves your browser
-- ✓ **Automatic Repair** - Finds and fixes all duplicate Note IDs
-- ✓ **Detailed Statistics** - Shows exactly what was fixed
-- ✓ **Instant Download** - Get your repaired file immediately
-- ✓ **All Versions** - Works with all Ableton Live versions
+- 🔒 **100% Client-Side** - Your file never leaves your browser
+- 🔧 **Automatic Repair** - Finds and fixes all duplicate Note IDs
+- 📊 **Detailed Statistics** - Shows exactly what was fixed
+- ⚡ **Instant Download** - Get your repaired file immediately
+- ✅ **All Versions** - Works with all Ableton Live versions
 
 ## How to Use
 
