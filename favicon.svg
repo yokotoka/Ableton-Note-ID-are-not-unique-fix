@@ -1,12 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#ff5e3a;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#e5462f;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  <rect width="100" height="100" rx="20" fill="url(#grad)"/>
-  <path d="M 30 70 L 50 30 L 70 70 Z" fill="white" stroke="white" stroke-width="2"/>
-  <circle cx="50" cy="55" r="8" fill="#ff5e3a"/>
-  <path d="M 35 65 L 65 65" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <rect width="100" height="100" fill="#ff5e3a"/>
+
+  <!-- 4 vertical lines on the left -->
+  <rect x="20" y="20" width="4" height="60" fill="white"/>
+  <rect x="28" y="20" width="4" height="60" fill="white"/>
+  <rect x="36" y="20" width="4" height="60" fill="white"/>
+  <rect x="44" y="20" width="4" height="60" fill="white"/>
+
+  <!-- 4 horizontal lines on the right -->
+  <rect x="52" y="20" width="28" height="4" fill="white"/>
+  <rect x="52" y="36" width="28" height="4" fill="white"/>
+  <rect x="52" y="52" width="28" height="4" fill="white"/>
+  <rect x="52" y="68" width="28" height="4" fill="white"/>
 </svg>
