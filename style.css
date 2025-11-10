@@ -71,15 +71,16 @@ h3 {
 }
 
 .error-screenshot {
-    margin: 20px 0;
+    margin: 20px -30px;
     text-align: center;
 }
 
 .error-screenshot img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px var(--shadow);
+    border-radius: 0;
+    box-shadow: 0 2px 8px var(--shadow);
+    display: block;
 }
 
 .problem-description p {
